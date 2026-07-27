@@ -4,7 +4,7 @@ A project to collect candidate provided information consistently and compare it 
 ## Project Architecture
 The information and results from the previous step will feed into the other
 
-Sources -> Crawler -> Content Storage/Extraction -> Normalization/Validation -> Report
+Sources -> Crawler -> Content Storage/Extraction -> Normalization/Validation -> Models -> Report
 
 * Sources: Where the candidate information will originate from
 * Crawler: Will get raw HTML content from the sources, it contain the selenium/bs4+requests driver 
@@ -12,6 +12,7 @@ Sources -> Crawler -> Content Storage/Extraction -> Normalization/Validation -> 
 * Content Extraction: Extract relevant information from storage
 * Normalization: Compare and contrast data from each candidate and organize it for consistency purposes
 * Validation: Check data against verified sources for accuracy, when possible
+* Models: Define what validated data will be attributed to each candidate
 * Report: Format and export data to interested parties
 
 ## Environment Information
