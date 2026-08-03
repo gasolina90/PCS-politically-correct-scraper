@@ -1,5 +1,5 @@
 # PCS-politically-correct-scraper
-A project to collect candidate provided information consistently and compare it against other trusted sources when possible
+A project to collect and compare 2026 California General elections candidate information for consitency and compare it against other trusted sources when possible
 
 ## Project Architecture
 The information and results from the previous step will feed into the other
