@@ -1,0 +1,6 @@
+site_type,crawler,url
+ballotpedia,requests,https://ballotpedia.org/California_gubernatorial_election,_2026
+ballotpedia,requests,https://ballotpedia.org/Steve_Hilton
+campaign,selenium,https://stevehiltonforgovernor.com/
+ballotpedia,requests,https://ballotpedia.org/Xavier_Becerra
+campaign,selenium,https://www.xavierbecerra2026.com/
